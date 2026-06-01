@@ -107,7 +107,3 @@ media-verifier/
 6. **EXIF Type-Aware Embeddings** (Yang et al., 2026) — Learnable metadata anomaly detection
 7. **Swin+ViT Copy-Move** (Alfadli et al., 2026) — 99.82% accuracy hybrid transformer CMFD
 8. **ForensicHub** (NeurIPS 2025) — Unified benchmark for all forensic domains
-
-## Resume Line
-
-Developed a multi-branch forensic media authentication system integrating adaptive ELA, transformer-based copy-move and splicing localization, CLIP-enhanced AI-generated detection, and metadata provenance analysis, achieving 92% precision across 4 forgery categories with pixel-level tamper heatmaps and court-ready forensic confidence scoring.
