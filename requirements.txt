@@ -1,0 +1,43 @@
+# Media Authenticity Verifier for Digital Evidence
+# Python 3.10+ required
+
+# Core dependencies
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0,<2.5
+
+# EXIF analysis
+piexif>=1.1.3
+
+# NOTE: jpegio is OPTIONAL — it requires C compilation and fails on Windows (MSVC).
+# Without it, the tool uses a pure-Python fallback (PIL-based recompression analysis)
+# that still detects double JPEG compression. Install only on Linux/Mac:
+#   pip install jpegio
+
+# Signal processing & frequency analysis
+PyWavelets>=1.5.0
+scipy>=1.11.0
+
+# Machine learning & metrics
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+
+# Deep learning
+torch>=2.1.0
+torchvision>=0.16.0
+timm>=0.9.0
+transformers>=4.35.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Web interface (Gradio — optional, use if running app.py)
+gradio>=4.0.0
+
+# API server (FastAPI — for custom UI bridge, use if running api.py)
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart>=0.0.5
+
+# Report generation
+reportlab>=4.0.0
